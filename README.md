@@ -62,26 +62,9 @@ You can compile the `sided` daemon on various modern Linux distributions and rec
     ```bash
     sided version
     ```
-    The version should be `0.9.0`. If you encounter any issues with PATH settings, refer to the [Golang releases page](https://go.dev/dl/).
+    The version should be `0.9.0`.
 
 ### **Run a Full Node** 🚀
-
-#### **Setting up the Keyring (Optional)** 🔐
-
-The keyring holds the private/public keypairs used to interact with a node. Set up a validator key to sign blocks correctly. The private key can be stored in different backends, such as:
-
-- **os backend**
-- **file backend**
-- **pass backend**
-- **kwallet backend**
-- **test backend**
-- **memory backend**
-
-For more details, visit the [Cosmos documentation on keyrings](https://docs.cosmos.network/v0.47/user/run-node/keyring).
-
-```bash
-export SIDED_KEYRING_BACKEND=os
-```
 
 #### **Adding Keys to the Keyring** 🔑
 
@@ -108,7 +91,7 @@ This command creates all the necessary configuration files for your node in the 
 
 The Cosmos SDK generates two configuration files:
 
-- **config.toml:** Used to configure CometBFT. Refer to [CometBFT's documentation](https://docs.cometbft.com/) for more details.
+- **config.toml:**
 - **app.toml:** Used to configure your app, including state pruning strategies, telemetry, gRPC, and REST server configurations.
 
 Both files are heavily commented, so refer to them directly to tweak your node.
