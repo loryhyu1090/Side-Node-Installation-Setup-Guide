@@ -10,16 +10,12 @@ This guide provides instructions for installing and configuring the `sided` bina
 ### **Hardware Specifications** 💻
 
 **Minimum Requirements:**
-- **CPU:** 4 cores
-- **RAM:** 8 GB
-- **Storage:** 500 GB
-- **Network:** 1 Gbps
-
-**Recommended Specifications:**
-- **CPU:** 8 cores
-- **RAM:** 16 GB
-- **Storage:** 800 GB
-- **Network:** 1 Gbps
+|Key|Value|
+|:--|:----|
+|**CPU:**|4 cores|
+|**RAM:**|8 GB|
+|**Storage:**|500 GB|
+|**Network:**|1 Gbps|
 
 ### **Operating System** 🖥️
 
@@ -27,7 +23,7 @@ You can compile the `sided` daemon on various modern Linux distributions and rec
 
 ### **Prerequisites** 📋
 
-- **Golang v1.22.0:** Ensure you have the correct version of Golang installed. Visit the [Golang releases page](https://go.dev/dl/) for instructions.
+- **Golang v1.22.0:** Ensure you have the correct version of Golang installed.
 
 ### **Build `sided` from Source** 🏗️
 
